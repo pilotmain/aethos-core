@@ -36,3 +36,10 @@ Standalone installs use a **reduced** `finalize_user_facing_text` pipeline unles
 Advanced goal planning, self-healing, negotiation, and enterprise features ship in the private **`aethos-pro`** package. Set `AETHOS_PRO_ENABLED=true` and install `aethos-pro` to load `aethos_pro.*` modules via `PluginManager`.
 
 Contact: **license@aethos.ai**
+
+## Development
+
+```bash
+pip install -e ".[dev]"
+pytest
+```
