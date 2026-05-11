@@ -1,5 +1,5 @@
 """Tests for user-facing list/bullet response cleanup."""
-from aethos_core.response_formatter import clean_response_formatting
+from app.services.response_formatter import clean_response_formatting
 
 
 def test_unbolds_numbered_list_markers() -> None:
